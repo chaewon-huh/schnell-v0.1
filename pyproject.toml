@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "schnell-v0-1"
+version = "0.1.0"
+description = ""
+authors = ["chaewon-huh <cw.huh@postech.ac.kr>"]
+readme = "README.md"
+packages = [{include = "schnell_v0"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+diffusers = "^0.32.2"
+transformers = "^4.48.3"
+peft = "^0.14.0"
+accelerate = "^1.3.0"
+torchvision = "^0.21.0"
+ftfy = "^6.3.1"
+tensorboard = "^2.19.0"
+jinja2 = "^3.1.5"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
